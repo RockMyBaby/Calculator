@@ -1,0 +1,24 @@
+.cointainer-button-panel{
+    display: flex;
+    justify-content: center;
+}
+.component-button-panel {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    align-items: center;
+    max-width:max-content;
+    
+    
+}
+
+.component-button-panel > div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2px;
+    flex: 1 0 auto;
+    justify-content: center;
+}

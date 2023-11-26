@@ -1,0 +1,35 @@
+.component-button{
+    display: inline-flex;
+    max-width: 60px;
+    flex: 1 0 auto;
+}
+
+.component-button.wide {
+    width: 50%;
+  }
+
+.component-button button {
+  background-color: #e14747;
+  color: azure;
+  border: 0;
+  font-size: 1.5rem;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+}
+
+.component-clear-button{
+  display: inline-flex;
+  max-width: 60px;
+  flex: 1 0 auto;
+}
+
+.component-clear-button button {
+  background-color: #47a9e1;
+  color: rgb(0, 0, 0);
+  border: 0;
+  font-size: 1.5rem;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+}
