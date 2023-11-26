@@ -13,7 +13,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body {
+  font-family: 'Arial', sans-serif;
+  /* Add other global styles as needed */
+}
 .App-header {
   background-color: #282c34;
   min-height:auto;
@@ -23,12 +26,23 @@
   justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-left: 38%;
+  margin-right: 38%;
 }
 
 .App-component{
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
+  background-color: #282c34;
+  min-height:235px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 38%;
+  margin-right: 38%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* max-width:max-content; */
 }
 
 .App-link {

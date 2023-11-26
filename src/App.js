@@ -29,6 +29,7 @@ function App() {
   const handleClick = (e) =>{
     // e.preventDefault();
     if(e.target.value === "="){
+      console.log(e.target.value+ " ha "+result)
       setResult(Calculate(e.target.value,result))
     }else{
       setResult(result.toString().concat(e.target.value))
